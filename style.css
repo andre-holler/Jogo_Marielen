@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    color: aqua;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AP{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.img{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.dificuldades{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.botoes{
+    margin: 7.5px;
+    width: 250px;
+    height: auto;
+}
+
+.botaoDificuldade{
+    background-color: black;
+    color: orange;
+    height: 50px;
+    width: 75px;
+}
+
+.semSombra{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.botaoImagem{
+    max-width: 250px;
+    max-height: 250px;
+    margin-right: 30px;
+}
