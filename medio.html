@@ -14,27 +14,30 @@
     <header>
     <div class="AP">
             <h1>Jogo probilidade</h1>
-            <h2>Feito por André e Pereira - 2932</h2>
+            <h2>Feito por André, Arthur e Pereira - 2932</h2>
         </div>
         <div>
             <a href="index.html"><button class="semSombra"><img src="Imagens\logo faiscas flipped.png" alt="Imagem faiscas" class="botaoImagem"></button></a>
         </div>
     </header>
 
-    <div class="input">
-        <h2>Acerte o número</h2>
-        <h3>Dificuldade: Difícil</h3>
-        <p>Informações</p>
-        <ul>
-            <li>Você deverá escolher um número entre 1 e 50.</li>
-            <li>Você tem a chance de 1/50 de acertar o número.</li>
-        </ul>
-        <input type="text" id="numeroInput">
-        <button onclick="jogar(valorMedio(), obterValor())">Enviar</button>
-    </div>
-    <div class="Resultado">
-        <h2>Resultado: </h2>
-        <p id="insertResultado"></p>
+    <div class="container">
+        <div class="input">
+            <h2>Acerte o número</h2>
+            <h3>Dificuldade: Difícil</h3>
+            <p>Informações</p>
+            <ul>
+                <li>Você deverá escolher um número entre 1 e 50.</li>
+                <li>Você tem a chance de 1/50 de acertar o número.</li>
+            </ul>
+            <input type="text" id="numeroInput">
+            <button onclick="jogar(valorMedio(), obterValor())">Enviar</button>
+
+            <div class="Resultado">
+                <h2>Resultado: </h2>
+                <p id="insertResultado"></p>
+            </div>
+        </div>
     </div>
 
 </body>

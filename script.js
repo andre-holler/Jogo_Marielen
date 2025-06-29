@@ -41,7 +41,7 @@ function jogarModoSecreto(valorCerto, valorEscolhido){
         acertos += 1
         dificuldade = dificuldade*10
 
-        document.getElementById("calcularDificuldade").innerText = `A chance de você ter acertado ${acertos} números é de 1/${dificuldade}.`
+        document.getElementById("calcularDificuldade").innerText = `A chance de você ter acertado ${acertos+1} números é de 1/${dificuldade}.`
         document.getElementById("displayAcertos").innerText = `Até agora você tem ${acertos} acertos.`
 
     }else{
@@ -50,7 +50,7 @@ function jogarModoSecreto(valorCerto, valorEscolhido){
         acertos = 0
         dificuldade = 10
         
-        document.getElementById("calcularDificuldade").innerText = `A chance de você ter acertado ${acertos} números é de 1/${dificuldade}.`
+        document.getElementById("calcularDificuldade").innerText = `A chance de você ter acertado ${acertos+1} números é de 1/${dificuldade}.`
         document.getElementById("displayAcertos").innerText = `Até agora você tem ${acertos} acertos.`
 
     }
